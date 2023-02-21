@@ -1,0 +1,152 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(221, 100%, 96%);
+}
+.card-container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 15px; */
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.75);
+}
+.left-card{
+    background: hsl(241, 81%, 54%);
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    width: 50%;
+}
+.left-card h2{
+    color: hsl(241, 100%, 89%)
+}
+.left-card .card-circle{
+    background: linear-gradient(178deg, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 1), transparent);
+    border-radius: 50%;
+    padding: 20px 19px;
+    margin: 0px 60px;
+}
+.left-card p{
+    margin: 0 auto;
+    padding: 0px 15%;
+    padding-bottom: 15px;
+    color: hsl(241, 100%, 89%);
+}
+.right-card{
+    width: 50%;
+}
+.right-card h2{
+    margin-left: 15%;
+}
+
+.card-summary .card-section1{
+    display: flex;
+    justify-content: space-around;
+    background: hsla(0, 100%, 67%,0.1);
+    width: 72%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.card-section1 .reaction{
+    font-weight: 800;
+    color: hsl(0, 100%, 67%);
+}
+.card-section1 .no p{
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+.card-section1 .no span{
+    color: hsl(0deg 0% 58%);
+}
+
+.card-summary .card-section2{
+    display: flex;
+    justify-content: space-around;
+    background: hsla(39, 100%, 56%,0.1);
+    width: 72%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.card-section2 .reaction{
+    font-weight: 800;
+    color: hsl(39, 100%, 56%);
+}
+.card-section2 .no p{
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+.card-section2 .no span{
+    color: hsl(0deg 0% 58%);
+}
+
+.card-summary .card-section3{
+    display: flex;
+    justify-content: space-around;
+    background: hsla(166, 100%, 37%,0.1);
+    width: 72%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.card-section3 .reaction{
+    font-weight: 800;
+    color: hsl(166, 100%, 37%)
+}
+.card-section3 .no p{
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+.card-section3 .no span{
+    color: hsl(0deg 0% 58%);
+}
+
+.card-summary .card-section4{
+    display: flex;
+    justify-content: space-around;
+    background: hsla(234, 85%, 45%,0.1);
+    width: 72%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.card-section4 .reaction{
+    font-weight: 800;
+    color: hsl(234, 85%, 45%)
+}
+.card-section4 .no p{
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+.card-section4 .no span{
+    color: hsl(0deg 0% 58%);
+}
+.btn{
+    margin-left: 14%;
+}
+.btn .button{
+    padding: 16px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: hsl(224, 30%, 27%);
+    width: 87%;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+@media screen and (max-width:600px) {
+    .left-card{
+        width:100%
+    }
+    .right-card{
+        width: 100%;
+    }
+}
